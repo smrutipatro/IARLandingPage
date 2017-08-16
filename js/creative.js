@@ -21,6 +21,12 @@
         $('.navbar-toggle:visible').click();
     });
 
+    $('ul.nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(400).fadeIn(300);
+    }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(300);
+    });
+
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
