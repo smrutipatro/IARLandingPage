@@ -221,7 +221,7 @@ header .header-content .header-content-inner p {
 body { margin: 0;overflow-x: hidden; } 
 div#slider { overflow: hidden;  
  }
-div#slider figure img { width: 20%;   height: 620px;
+div#slider figure img { width: 20%;   height: 670px;
 float: left; }
 div#slider figure { 
   position: absolute;
