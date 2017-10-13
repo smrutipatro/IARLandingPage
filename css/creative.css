@@ -234,6 +234,14 @@ div#slider figure {
   animation: 10s slidy infinite; 
 
 }
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+.broun-block {
+    background: #444444;
+    padding-bottom: 34px;
+    padding-top: 65px;
+}
 .section-heading {
   margin-top: 0;
 }
